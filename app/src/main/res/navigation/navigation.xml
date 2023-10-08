@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/videoGallery">
+
+    <fragment
+        android:id="@+id/videoGallery"
+        android:name="com.example.videotrimmer.ui.fragments.VideoGallery"
+        android:label="fragment_video_gallery"
+        tools:layout="@layout/fragment_video_gallery" >
+        <action
+            android:id="@+id/action_videoGallery_to_videoTrimming"
+            app:destination="@id/videoTrimming" />
+    </fragment>
+    <fragment
+        android:id="@+id/videoTrimming"
+        android:name="com.example.videotrimmer.ui.fragments.VideoTrimming"
+        android:label="fragment_video_trimming"
+        tools:layout="@layout/fragment_video_trimming" />
+</navigation>

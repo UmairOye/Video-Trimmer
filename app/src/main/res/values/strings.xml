@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Video Trimmer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="allow_permission">Allow Permission</string>
+    <string name="video_thumb">video thumb</string>
+    <string name="_3_45_mb">3.45 MB</string>
+    <string name="_4_05">4:05</string>
+    <string name="crop_save"><![CDATA[Crop & Save]]></string>
+</resources>
