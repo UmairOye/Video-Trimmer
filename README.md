@@ -4,7 +4,6 @@ An open-source Kotlin Android Studio project that offers WhatsApp-like video tri
 # ScreenShots
 ![ScreenShot](https://github.com/UmairOye/Video-Trimmer/blob/main/screenshots/Screenshot_20231009-124711.png)
 ![ScreenShot](https://github.com/UmairOye/Video-Trimmer/blob/main/screenshots/Screenshot_20231009-124720.png)
-![ScreenShot](https://github.com/UmairOye/Video-Trimmer/blob/main/screenshots/Screenshot_20231009-124711.png)
 ![ScreenShot](https://github.com/UmairOye/Video-Trimmer/blob/main/screenshots/Screenshot_20231009-124738.png)
 ![ScreenShot](https://github.com/UmairOye/Video-Trimmer/blob/main/screenshots/Screenshot_20231009-124744.png)
 ![ScreenShot](https://github.com/UmairOye/Video-Trimmer/blob/main/screenshots/Screenshot_20231009-124755.png)
