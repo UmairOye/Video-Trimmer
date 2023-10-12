@@ -2,12 +2,15 @@
 An open-source Kotlin Android Studio project that offers WhatsApp-like video trimming, allowing precise edits with a sleek user interface for seamless video customization on your Android device.
 
 # ScreenShots
-![ScreenShot](https://github.com/UmairOye/Video-Trimmer/blob/main/screenshots/Screenshot_20231009-124711.png)
-![ScreenShot](https://github.com/UmairOye/Video-Trimmer/blob/main/screenshots/Screenshot_20231009-124720.png)
-![ScreenShot](https://github.com/UmairOye/Video-Trimmer/blob/main/screenshots/Screenshot_20231009-124730.png)
-![ScreenShot](https://github.com/UmairOye/Video-Trimmer/blob/main/screenshots/Screenshot_20231009-124738.png)
-![ScreenShot](https://github.com/UmairOye/Video-Trimmer/blob/main/screenshots/Screenshot_20231009-124744.png)
-![ScreenShot](https://github.com/UmairOye/Video-Trimmer/blob/main/screenshots/Screenshot_20231009-124755.png)
+
+<img width="360" height="720" src="screenshots/Screenshot_20231009-124711.png" alt="Image" >
+<img width="360" height="720" src="screenshots/Screenshot_20231009-124720.png" alt="Image" >
+
+<img width="360" height="720" src="screenshots/Screenshot_20231009-124730.png" alt="Image" >
+<img width="360" height="720" src="screenshots/Screenshot_20231009-124738.png" alt="Image" >
+
+<img width="360" height="720" src="screenshots/Screenshot_20231009-124744.png" alt="Image" >
+<img width="360" height="720" src="screenshots/Screenshot_20231009-124755.png" alt="Image" >
 
 # Features
 Trim videos to a specified length.
