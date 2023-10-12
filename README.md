@@ -3,9 +3,9 @@ An open-source Kotlin Android Studio project that offers WhatsApp-like video tri
 
 # ScreenShots
 
-<img width="270" height="550" src="screenshots/Screenshot_20231009-124711.png" alt="Image" > <img width="270" height="550" src="screenshots/Screenshot_20231009-124720.png" alt="Image" >
+<img width="270" height="550" src="screenshots/Screenshot_20231009-124711.png" alt="Image" > <img width="270" height="550" src="screenshots/Screenshot_20231009-124720.png" alt="Image" ><img width="270" height="550" src="screenshots/Screenshot_20231009-124730.png" alt="Image" >
 
-<img width="270" height="550" src="screenshots/Screenshot_20231009-124730.png" alt="Image" >
+
 <img width="270" height="550" src="screenshots/Screenshot_20231009-124738.png" alt="Image" >
 
 <img width="270" height="550" src="screenshots/Screenshot_20231009-124744.png" alt="Image" >
