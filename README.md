@@ -16,6 +16,45 @@ Allows users to grant read external storage permission for video selection.
 Supports various video formats.
 
 # Usage
+
+## Setup
+
+### Kotlin-dsl
+```kotlin
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            setUrl("https://jitpack.io")
+        }
+    }
+}
+```
+
+### Gradle groovy
+```groovy
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+```groovy
+implementation 'com.github.redevrx:android_video_trimmer:1.0.0'
+```
+
+## Example
+```xml
+ <com.redevrx.video_trimmer.view.VideoEditor
+        android:id="@+id/video_trimmer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+```
+
 # Allow Permission
 
 Upon launching the app, you'll be prompted to grant "Read External Storage" permission. Click the "Allow Permission" button to proceed.
