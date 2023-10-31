@@ -72,3 +72,7 @@ Preview the trimmed video to ensure it meets your requirements.
 # Save Trimmed Video
 
 Once satisfied with the trim, click the "Save Trimmed Video" button. The trimmed video will be saved to your device.
+
+## Credits
+
+[Awesome Library](https://github.com/redevrx/android_video_trimmer) by [Kasem Saikhuedong](https://github.com/redevrx)
