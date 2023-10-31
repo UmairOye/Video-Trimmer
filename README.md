@@ -75,4 +75,4 @@ Once satisfied with the trim, click the "Save Trimmed Video" button. The trimmed
 
 ## Credits
 
-[Awesome Library](https://github.com/redevrx/android_video_trimmer) by [Kasem Saikhuedong](https://github.com/redevrx)
+[Android Video Trimmer](https://github.com/redevrx/android_video_trimmer) by [Kasem Saikhuedong](https://github.com/redevrx)
