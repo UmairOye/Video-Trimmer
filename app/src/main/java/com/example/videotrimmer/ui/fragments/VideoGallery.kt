@@ -36,7 +36,6 @@ class VideoGallery : Fragment() {
         }
         adapter = GalleryAdapter()
         binding.rvVideo.adapter = adapter
-        showVideoGallery()
 
         adapter.setOnClickListener(listener = object : GalleryAdapter.OnClickListener {
             override fun onItemClick(item: VideoItem) {
@@ -60,10 +59,9 @@ class VideoGallery : Fragment() {
 
     @RequiresApi(Build.VERSION_CODES.TIRAMISU)
     private fun startReadExternalStoragePermission() {
-        if(Build.VERSION.SDK_INT > Build.VERSION_CODES.S)
-        {
+        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.S) {
             this.requestReadPermissionLauncher.launch(android.Manifest.permission.READ_MEDIA_VIDEO)
-        }else{
+        } else {
             this.requestReadPermissionLauncher.launch(android.Manifest.permission.READ_EXTERNAL_STORAGE)
         }
     }
@@ -72,8 +70,7 @@ class VideoGallery : Fragment() {
         ActivityResultContracts.RequestPermission()
     ) { isGranted ->
         if (isGranted) {
-            binding.progressBar.visibility = View.VISIBLE
-            showVideoGallery()
+            startWriteStoragePermission()
         } else {
             Toast.makeText(
                 requireContext(),
@@ -90,6 +87,20 @@ class VideoGallery : Fragment() {
                 binding.progressBar.visibility = View.GONE
                 adapter.submitListToAdapter(it)
             }
+        }
+    }
+
+
+    private fun startWriteStoragePermission() {
+        this.requestWritePermissionLauncher.launch(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
+    }
+
+    private val requestWritePermissionLauncher = registerForActivityResult(
+        ActivityResultContracts.RequestPermission()
+    ) { isGranted ->
+        if (isGranted) {
+            binding.progressBar.visibility = View.VISIBLE
+            showVideoGallery()
         }
     }
 }
