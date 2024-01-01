@@ -64,28 +64,28 @@ dependencies {
 }
 
 
-afterEvaluate {
-    publishing {
-        publications {
-
-            // Creates a Maven publication called "release".
-            create<MavenPublication>("release") {
-
-                // Applies the component for the release build variant.
-                // NOTE : Delete this line code if you publish Native Java / Kotlin Library
-                from(components["release"])
-
-                // NOTE : Different GroupId For Each Library / Module, So That Each Library Is Not Overwritten
-                groupId = "com.github.redevrx"
-
-                // NOTE : Different ArtifactId For Each Library / Module, So That Each Library Is Not Overwritten
-                artifactId = "android_video_trimmer"
-
-                // Version Library Name (Example : "1.0.0")
-                version = "1.0.0"
-
-            }
-
-        }
-    }
-}
+//afterEvaluate {
+//    publishing {
+//        publications {
+//
+//            // Creates a Maven publication called "release".
+//            create<MavenPublication>("release") {
+//
+//                // Applies the component for the release build variant.
+//                // NOTE : Delete this line code if you publish Native Java / Kotlin Library
+//                from(components["release"])
+//
+//                // NOTE : Different GroupId For Each Library / Module, So That Each Library Is Not Overwritten
+//                groupId = "com.github.redevrx"
+//
+//                // NOTE : Different ArtifactId For Each Library / Module, So That Each Library Is Not Overwritten
+//                artifactId = "android_video_trimmer"
+//
+//                // Version Library Name (Example : "1.0.0")
+//                version = "1.0.0"
+//
+//            }
+//
+//        }
+//    }
+//}
