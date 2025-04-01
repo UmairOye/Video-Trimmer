@@ -8,7 +8,7 @@
     app:cardElevation="@dimen/_2sdp"
     android:id="@+id/cdMain"
     app:cardCornerRadius="@dimen/_5sdp"
-    android:layout_height="@dimen/_90sdp">
+    android:layout_height="@dimen/_110sdp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
