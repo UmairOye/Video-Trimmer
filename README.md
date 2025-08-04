@@ -77,6 +77,16 @@ Once satisfied with the trim, click the "Save Trimmed Video" button. The trimmed
 
 [Android Video Trimmer](https://github.com/redevrx/android_video_trimmer) by [Kasem Saikhuedong](https://github.com/redevrx)
 
+## 💼 Hire Me
+Need help with Android development?  
+I specialize in:
+- Custom UI components (e.g., animated bottom navigation)
+- API integration (AI tools, social media, ads)
+- Performance optimization and clean architecture
+
+👉 [Hire me on Fiverr](https://www.fiverr.com/s/pd2VmoR)
+
+
 ## Don't Forget to Star ⭐
 
 If you found this project useful or had fun exploring it, please consider giving it a star. It's a great way to show your appreciation and it puts a smile on my face! 😊🌟
